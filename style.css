@@ -2,7 +2,18 @@ html{
 font-size:16px;
 }
 
+.container {
+	width:1215px;
+}
+	
+body {
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+	
 
 body #top_banner {
     background: transparent url(http://production.townsquareblogs.com/wp-content/uploads/2014/05/dark1.png) 50% bottom no-repeat;
@@ -261,7 +272,7 @@ img.img-thumb {
 }
 
 img.media-object {
-	min-width: 300px;
+	min-width: 250px;
 }
 
 div.small-thumb{
@@ -315,18 +326,18 @@ div.media 	{
 
 .media-heading  {
 	  width: 300px;
-    margin-left: 149px;
+    margin-left: 50px;
 	font-weight:bolder;	
 }
 
 p.media {
     width: 300px;
-    margin-left: 149px;
+    margin-left: 50px;
 }
 
 .smallthumb	{
     width: 100px;
-    margin-left: 149px;
+    margin-left: 50px;
 	background: #7b4397;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -341,9 +352,12 @@ color:white;
 
 div.col-sm-4 {
     width: 0px;
-    margin-left: -107px;
+    margin-left: -40px;
     margin-bottom: 20px;
     display: flex;
+	margin-left:0px;
+	padding-left:0px;
+	
 }
 
 p.slo{
@@ -356,5 +370,22 @@ div.meta{
     border-top-width: 0px;
     border-style: groove;
     clear: both;
-	width: 731px;
+	width: 550px;
+}
+
+div.meta-thumb	{
+		    padding-top: 0px;
+    border-top-width: 0px;
+    border-style: groove;
+    clear: both;
+	margin-bottom: 16px;
+    height: 3px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 370px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-left: 16px;
+    padding-right: 38px;
 }
